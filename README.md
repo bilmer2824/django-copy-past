@@ -1,7 +1,7 @@
 # Django Copy Past
 
 
-```
+```python
 def check_hash_tec(message: Message):
     present_id = message.chat.id
     hash_tek_list = message.text.split(" ")
